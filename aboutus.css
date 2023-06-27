@@ -17,10 +17,7 @@
 
 /*-------------------nav bar starts------------*/
 
-body {
-  --nav-height: 12vh;
-  margin: 0;
-}
+
 
 nav {
   position: relative;
@@ -30,12 +27,21 @@ nav {
   transition: background-color 0.5s ease-in-out;
   height: 11vh;
   width: 100%;
-  padding: 0 3% 0 3%;
+  
   justify-content: space-between;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 .navbar-yellow {
   background-color: rgb(0,0,0, 0.6) !important;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+
 }
 
 nav ul {
@@ -45,8 +51,12 @@ nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 50px;
+  padding: 0 100px;
   transition: 0.5s ease-in-out;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 nav ul li {
@@ -54,6 +64,10 @@ nav ul li {
   align-items: center;
   transition: background-color 0.5s ease-in-out;
   height: 11vh;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 nav ul li a {
@@ -65,6 +79,10 @@ nav ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 .dropdown {
@@ -81,6 +99,10 @@ nav ul li a {
   left: 0;
   border-radius: 0% 0% 5% 5%;
   width: 100%;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 .dropdown-link {
@@ -92,11 +114,19 @@ nav ul li a {
   padding: 15px 25px;
   color: white;
   transition: 0.5s ease-in-out;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
   transition: 0.5s linear;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 .scroll-container {
@@ -111,11 +141,19 @@ nav ul li a {
   z-index: 1;
   background-color: transparent;
   transition: 0.5s linear;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 .navbar-before-300px ul li a {
   color: white;
   transition: 0.5s linear;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 /* After 300px */
@@ -125,11 +163,19 @@ nav ul li a {
   z-index: 10;
   background-color: rgb(0, 0, 0, 0.6);
   transition: 0.5s linear;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 .navbar-after-300px ul li a {
   color: white;
   transition: 0.5s linear;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 .dropdown-link.dropdown-hover,
@@ -137,11 +183,19 @@ nav ul li a {
 .dropdown-content:hover {
   background-color: rgb(0, 0, 0, 0.6);
   transition: 0.5s linear;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 .dropdown-content a:hover {
   color: white;
   transition: 0.5s linear;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 .logo01 {
@@ -149,7 +203,7 @@ nav ul li a {
   height: 43px;
 }
 
-
+/*-----mobile navbar---------*/
 
 .nav-mob {
   position: fixed;
@@ -309,8 +363,6 @@ aside a {
   transform: scale(0.9);
 }
 
-
-
 /*-------------------------------- before about us ------------------------------*/
 .beforeabout{
   height: 90vh;
@@ -410,7 +462,7 @@ aside a {
   height: 650px;
   width: 100%;
   background-color: #fdfdfd;
-  border: #4ac157 solid 2px;
+  
 }
 
 .extra {
@@ -426,7 +478,7 @@ aside a {
   background-size: cover;
   background-color: #fdfdfd;
   background-repeat: no-repeat;
-  border: #d9317a solid 2px;
+  border: #3b5998 solid 2px;
 }
 
 .description {
@@ -435,7 +487,7 @@ aside a {
   text-align: justify;
   padding: 50px 70px 50px 70px;
   background-color: #fdfdfd;
-  border: #893dc2 solid 2px;
+  
 }
 
 .description h1 {
@@ -450,6 +502,7 @@ aside a {
   font-size: 16px;
   font-weight: 300;
   letter-spacing: 2px;
+  line-height: 25px;
 }
 
 
@@ -462,7 +515,7 @@ aside a {
   justify-content: space-between;
   align-items: center;
   background-color: #fdfdfd;
-  border: #f77638 solid 2px;
+  
 
 }
 
@@ -479,7 +532,7 @@ aside a {
 .descriptionowner {
   height: 760px;
   width: 50%;
-  border: #fec564 solid 2px;
+  
   text-align: justify;
   padding: 10px 100px 50px 70px;
 }
@@ -728,10 +781,9 @@ aside a {
   }
 
   .nav-mob img{
-    width: 160px;
-    height: 30px;
+    width: 140px;
+    height: 27px;
     margin: auto;
-    border:#0177b5 solid 2px
   }
   .burger {
     padding-top: 20px;
@@ -741,22 +793,24 @@ aside a {
   }
 
   .beforeabout h1{
-    font-size: 40px;
+    font-size: 42px;
     letter-spacing: 8px;
   }
 
+  
+  .ca3-scroll-down-link {
+    bottom: 90px;
+    height: 60px;
+    width: 40px;
+    font-size: 30px;
+    border: #4ac157 solid 2px;
+  }
 
   .extra {
     display: none;
   }
   
-  .ca3-scroll-down-link {
-    bottom: 170px;
-    height: 60px;
-    width: 40px;
-    font-size: 30px;
-   
-  }
+  
   
   .teamdiv {
     display: flex;
@@ -859,9 +913,11 @@ aside a {
 
   .descriptionowner p {
     margin-top: 20px;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+    flex-wrap: wrap;
+    text-align: justify;
     line-height: 20px;
   }
 
@@ -941,31 +997,37 @@ aside a {
   .nav-mob{
     height:70px;
   }
+  
   .nav-mob img{
-    
-    width: 190px;
-    height: 35px;
+    width: 160px;
+    height: 28px;
     margin: auto;
+    
   }
+
   .burger {
-    padding-top: 0px;
-    width: 62px;
-  height: 62px;
+     padding-top: 20px;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
   }
   
   .beforeabout h1{
-    font-size: 45px;
+    font-size: 42px;
     letter-spacing: 8px;
+  }
+
+  .ca3-scroll-down-link {
+    bottom: 90px;
+    height: 60px;
+    width: 40px;
+    font-size: 30px;
+    border: #893dc2 solid 2px;
   }
 
 
   .extra {
     display: none;
-  }
-  
-  .ca3-scroll-down-link {
-    bottom: 170px;
-    height: 70px;
   }
   
   .teamdiv {
@@ -989,7 +1051,7 @@ aside a {
     width: 100%;
     height: 600px;
 
-    padding: 10px 50px 10px 50px;
+    padding: 10px 30px 10px 30px;
     display: inline-block;
     justify-content: center;
     align-items: center;
@@ -1000,18 +1062,19 @@ aside a {
     font-size: 35px;
     font-weight: 300;
     letter-spacing: 3px;
-    
+   
     text-align: center; 
   }
 
   .description p {
-    margin-top: 60px;
-    font-size: 14px;
+    margin-top: 30px;
+    font-size: 15px;
     font-weight: 300;
     letter-spacing: 2px;
     flex-wrap: wrap;
     text-align: justify;
     line-height: 20px;
+    
     
   }
   
@@ -1048,7 +1111,7 @@ aside a {
     height: 700px;
     width: 100%;
     text-align: justify;
-    padding: 10px 50px 10px 50px;
+    padding: 10px 30px 10px 30px;
 
   
     
@@ -1144,31 +1207,49 @@ aside a {
 /*----------------tablet ipad mini---------
 -----------------------------------------*/
 
-@media screen and (max-width: 768px) and (min-width: 650px){
-
+@media screen and (max-width: 768px) and (min-width: 451px){
   .nav {
     display: none;
+  }
+  .nav-mob {
+    height:100px;
   }
 
   .navmobile {
     display: block;
   }
+
+  .nav-mob img{
+    width: 230px;
+    height: 40px;
+    margin: auto;
+    
+  }
   
   .beforeabout h1{
-    font-size: 85px;
-  }
-
-  .extra {
-    display: none;
+    font-size: 90px;
   }
 
   .burger {
-    padding-top: 50px;
+    padding-top: 10px;
   }
   
   .ca3-scroll-down-link {
     bottom: 170px;
     height: 70px;
+  }
+  
+  .extra {
+    display: none;
+  }
+
+  
+  .ca3-scroll-down-link {
+    bottom: 110px;
+    height: 60px;
+    width: 40px;
+    font-size: 30px;
+    border: #e33f5f solid 2px;
   }
   
   .teamdiv {
@@ -1209,7 +1290,7 @@ aside a {
 
   .description p {
     margin-top: 60px;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 300;
     letter-spacing: 2px;
     flex-wrap: wrap;
@@ -1281,6 +1362,8 @@ aside a {
     font-weight: 300;
     letter-spacing: 2px;
     line-height: 20px;
+    flex-wrap: wrap;
+    text-align: justify; 
   }
 
   /*--social meadia--*/
@@ -1328,10 +1411,14 @@ aside a {
 -----------------------------------------*/
 
 @media screen and (max-width: 821px) and (min-width: 769px){
+  
   .nav {
     display: none;
   }
 
+  .nav-mob {
+    height:110px;
+  }
   .navmobile {
     display: block;
   }
@@ -1340,12 +1427,8 @@ aside a {
     font-size: 90px;
   }
 
-  .extra {
-    display: none;
-  }
-
   .burger {
-    padding-top: 50px;
+    padding-top: 20px;
   }
   
   .ca3-scroll-down-link {
@@ -1353,28 +1436,36 @@ aside a {
     height: 70px;
   }
   
+
+  .extra {
+    display: none;
+  }
+
+  
   .teamdiv {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    height: 950px;
     width: 100%;
     background-color: #fdfdfd;
-
+    border:#0077b5 2px solid;
   }
 
   .pictureteam {
     width: 100%;
-    height: 60vh;
+    height: 600px;
+    border:#f77638 2px solid;
   }
 
   .description {
     width: 100%;
-    height: 40vh;
+    height: 350px;
     padding: 10px 30px 10px 30px;
     display: inline-block;
     justify-content: center;
     align-items: center;
+    border:yellow 2px solid;
   }
 
   .description h1 {
