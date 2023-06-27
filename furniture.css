@@ -15,10 +15,7 @@
 
 /*-------------------nav bar starts------------*/
 
-body {
-  --nav-height: 12vh;
-  margin: 0;
-}
+
 
 nav {
   position: relative;
@@ -28,12 +25,21 @@ nav {
   transition: background-color 0.5s ease-in-out;
   height: 11vh;
   width: 100%;
-  padding: 0 3% 0 3%;
+  
   justify-content: space-between;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 .navbar-yellow {
   background-color: rgb(0,0,0, 0.6) !important;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+
 }
 
 nav ul {
@@ -43,8 +49,12 @@ nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 50px;
+  padding: 0 100px;
   transition: 0.5s ease-in-out;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 nav ul li {
@@ -52,6 +62,10 @@ nav ul li {
   align-items: center;
   transition: background-color 0.5s ease-in-out;
   height: 11vh;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 nav ul li a {
@@ -63,6 +77,10 @@ nav ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 .dropdown {
@@ -79,6 +97,10 @@ nav ul li a {
   left: 0;
   border-radius: 0% 0% 5% 5%;
   width: 100%;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 .dropdown-link {
@@ -90,11 +112,19 @@ nav ul li a {
   padding: 15px 25px;
   color: white;
   transition: 0.5s ease-in-out;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
   transition: 0.5s linear;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 .scroll-container {
@@ -109,11 +139,19 @@ nav ul li a {
   z-index: 1;
   background-color: transparent;
   transition: 0.5s linear;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 .navbar-before-300px ul li a {
   color: white;
   transition: 0.5s linear;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 /* After 300px */
@@ -123,11 +161,19 @@ nav ul li a {
   z-index: 10;
   background-color: rgb(0, 0, 0, 0.6);
   transition: 0.5s linear;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 .navbar-after-300px ul li a {
   color: white;
   transition: 0.5s linear;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 .dropdown-link.dropdown-hover,
@@ -135,11 +181,19 @@ nav ul li a {
 .dropdown-content:hover {
   background-color: rgb(0, 0, 0, 0.6);
   transition: 0.5s linear;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 .dropdown-content a:hover {
   color: white;
   transition: 0.5s linear;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 .logo01 {
@@ -147,6 +201,7 @@ nav ul li a {
   height: 43px;
 }
 
+/*-----mobile navbar---------*/
 
 .nav-mob {
   position: fixed;
@@ -241,7 +296,7 @@ aside {
   flex-direction: column;
   width: 300px;
   height: 100%;
-  padding: 38px 50px 20px;
+  padding: 60px 55px 25px 25px;
   background-color: rgb(0, 0, 0, 0.6);
   box-shadow: 0 0 20px rgb(0 0 0 / 20%);
   translate: 100% 0;
@@ -305,7 +360,6 @@ aside a {
 .cta:active svg {
   transform: scale(0.9);
 }
-
 
 
 .beforeabout{
@@ -456,35 +510,48 @@ aside a {
 }
 
 .para{
-    height: 60vh;
-    width: 100%; 
-    background-color: #fdfdfd;
+  height: 500px;
+  width: 100%; 
+  background-color: #fdfdfd;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border:#0177b5 2px solid;
 }
-.para h1{
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    font-size: 56px;
-    font-weight: 300;
-    letter-spacing: 4px;
-    margin-bottom: 70px;
+.headingmain{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: #4ac157 2px solid;
+  height: 180px;
+  width: 100%; 
+}
+.headingcontent{
+  border: #ea4335 2px solid;
+  font-size: 56px;
+  font-weight: 300;
+  letter-spacing: 4px;
+  
 }
 .para01{
-  padding-left: 15%;
-  padding-right: 15%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 320px;
+  width: 100%; 
+  border: springgreen 2px solid;
 }
-.para01 p {
-    display: flex;
-    flex-direction: column;
-    
-    align-items: center;
-    justify-content: center;
+.paracontent {
+  height: 320px;
+  width: 840px; 
+    padding:10px;
     text-align: justify;
-    
     font-size: 16px;
     font-weight: 300;
     letter-spacing: 4px;
     line-height: 25px;
+    border: #893dc2 2px solid;
     
 }
 
@@ -818,8 +885,8 @@ aside a {
   }
 
   .nav-mob img{
-    width: 160px;
-    height: 30px;
+    width: 140px;
+    height: 27px;
     margin: auto;
   }
   .burger {
@@ -830,22 +897,23 @@ aside a {
   }
 
   .beforeabout h1{
-    font-size: 40px;
+    font-size: 42px;
     letter-spacing: 8px;
+  }
+
+  
+  .ca3-scroll-down-link {
+    bottom: 90px;
+    height: 60px;
+    width: 40px;
+    font-size: 30px;
+    border: #4ac157 solid 2px;
   }
 
   .extra {
     display: none;
   }
   
-  .ca3-scroll-down-link {
-    bottom: 170px;
-    height: 60px;
-    width: 40px;
-    font-size: 30px;
-  }
-  
-
   .footer-main .icons{
     padding: 35px;
   }
@@ -900,29 +968,55 @@ aside a {
     display: none;
   }
 
+  
   .para{
-    height: 700px;
-
+    height: 650px;
+    width: 100%; 
+    background-color: #fdfdfd;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border:#0177b5 2px solid;
   }
-  .para h1{
-        
-    font-size: 36px;
+
+  .headingmain{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: #4ac157 2px solid;
+    height: 80px;
+    width: 100%; 
+    padding: 50px 30px 10px 30px;
+  }
+  .headingcontent{
+    border: #ea4335 2px solid;
+    font-size: 30px;
     font-weight: 300;
     letter-spacing: 4px;
-    margin-bottom: 50px;
+    text-align: center;
   }
-
   .para01{
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-  .para01 p {
-    font-size: 14px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    width: 100%; 
+    border: springgreen 2px solid;
+    padding: 0 10px;
+  }
+  .paracontent {
+    height: 500px;
+    width: 840px; 
+    padding:10px;
+    text-align: justify;
+    font-size: 15px;
     font-weight: 300;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     line-height: 25px;
-  }   
+    border: #893dc2 2px solid;
+    
+  }
 
   .card01{
     gap:7vw;
@@ -965,15 +1059,32 @@ aside a {
   .nav-mob{
     height:70px;
   }
+  
   .nav-mob img{
-    width: 190px;
-    height: 35px;
+    width: 160px;
+    height: 28px;
     margin: auto;
+    
   }
+
   .burger {
-    padding-top: 0px;
-    width: 62px;
-    height: 62px;
+     padding-top: 20px;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+  }
+  
+  .beforeabout h1{
+    font-size: 42px;
+    letter-spacing: 8px;
+  }
+
+  .ca3-scroll-down-link {
+    bottom: 90px;
+    height: 60px;
+    width: 40px;
+    font-size: 30px;
+    border: #893dc2 solid 2px;
   }
 
   .beforeabout{
@@ -992,10 +1103,7 @@ aside a {
     display: none;
   }
   
-  .ca3-scroll-down-link {
-    bottom: 130px;
-    height: 70px;
-  }
+  
 
   .footer-main .icons{
     padding: 35px;
@@ -1041,36 +1149,59 @@ aside a {
     object-fit: cover;
   }
 
-  .sp04{
+  .sp01{
     display: none;
   }
-  .sp03{
-    display: none;
-  }
-  .sp02{
-    display: none;
-  }
+  
 
   .para{
-    height: 700px;
-
+    height: 600px;
+    width: 100%; 
+    background-color: #fdfdfd;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border:#0177b5 2px solid;
   }
 
-
-  .para h1{
+  .headingmain{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: #4ac157 2px solid;
+    height: 150px;
+    width: 100%; 
+    padding: 70px 30px 10px 30px;
+  }
+  .headingcontent{
+    border: #ea4335 2px solid;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-align: center;
+  }
+  .para01{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 100%; 
+    border: springgreen 2px solid;
+    padding: 0 10px;
+  }
+  .paracontent {
+    height: 450px;
+    width: 840px; 
+    padding:10px;
     text-align: justify;
-    font-size: 35px;
+    font-size: 15px;
     font-weight: 300;
-    letter-spacing: 4px;
-    margin-bottom: 70px;
-  }
-
-  .para01 p {
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     line-height: 25px;
-  }   
+    border: #893dc2 2px solid;
+    
+  }
 
   .card01{
     gap:7vw;
@@ -1096,21 +1227,34 @@ aside a {
 
 @media screen and (max-width: 768px) and (min-width: 650px){
 
-.nav {
+  .nav {
     display: none;
+  }
+  .nav-mob {
+    height:100px;
   }
 
   .navmobile {
     display: block;
   }
 
-  .beforeabout h1{
-    font-size: 85px;
+  .nav-mob img{
+    width: 230px;
+    height: 40px;
+    margin: auto;
+    
   }
+  
+  .beforeabout h1{
+    font-size: 70px;
+  }
+
   .burger {
-    padding-top: 50px;}
+    padding-top: 10px;
+  }
+  
   .ca3-scroll-down-link {
-    bottom: 180px;
+    bottom: 170px;
     height: 70px;
   }
 
@@ -1133,23 +1277,51 @@ aside a {
   }
 
   .para{
-    height: 500px;
-
-  }
-  .para h1{
-        
-        font-size: 46px;
-        font-weight: 300;
-        letter-spacing: 4px;
-        margin-bottom: 70px;
-    }
-
-    .para01 p {
-    font-size: 14px;
+  height: 450px;
+  width: 100%; 
+  background-color: #fdfdfd;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border:#0177b5 2px solid;
+}
+.headingmain{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: #4ac157 2px solid;
+  height: 100px;
+  width: 100%; 
+}
+.headingcontent{
+  border: #ea4335 2px solid;
+  font-size: 45px;
+  font-weight: 300;
+  letter-spacing: 4px;
+  text-align: justify;
+}
+.para01{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 320px;
+  width: 100%; 
+  border: springgreen 2px solid;
+  padding: 0 40px;
+}
+.paracontent {
+  height: 320px;
+  width: 840px; 
+    padding:10px;
+    text-align: justify;
+    font-size: 16px;
     font-weight: 300;
     letter-spacing: 4px;
     line-height: 25px;
-    }   
+    border: #893dc2 2px solid;
+    
+}
 
     .card01{
         gap:10vw;
@@ -1176,26 +1348,35 @@ aside a {
     display: none;
   }
 
+  .nav-mob {
+    height:110px;
+  }
+
   .navmobile {
     display: block;
   }
-
+  
   .beforeabout h1{
-    font-size: 90px;
+    font-size: 80px;
   }
+
   .burger {
-    padding-top: 50px;}
+    padding-top: 20px;
+  }
+  
   .ca3-scroll-down-link {
-    bottom: 180px;
+    bottom: 170px;
     height: 70px;
   }
 
   .main-carousel{
     height: 650px;
+
   }
 
   .cell{
     height: 50vh;
+
     margin: 10px 30px 0px 30px;
   }
   .sp04{
@@ -1209,37 +1390,65 @@ aside a {
   }
 
   .para{
-    height: 500px;
-
-  }
-  .para h1{
-        
-        font-size: 46px;
-        font-weight: 300;
-        letter-spacing: 4px;
-        margin-bottom: 70px;
-    }
-
-    .para01 p {
-    font-size: 14px;
+  height: 450px;
+  width: 100%; 
+  background-color: #fdfdfd;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border:#0177b5 2px solid;
+}
+.headingmain{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: #4ac157 2px solid;
+  height: 100px;
+  width: 100%; 
+}
+.headingcontent{
+  border: #ea4335 2px solid;
+  font-size: 45px;
+  font-weight: 300;
+  letter-spacing: 4px;
+  text-align: justify;
+}
+.para01{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 320px;
+  width: 100%; 
+  border: springgreen 2px solid;
+  padding: 0 40px;
+}
+.paracontent {
+  height: 320px;
+  width: 840px; 
+    padding:10px;
+    text-align: justify;
+    font-size: 16px;
     font-weight: 300;
     letter-spacing: 4px;
     line-height: 25px;
-    }   
+    border: #893dc2 2px solid;
+    
+}
 
-    .card01{
-        gap:10vw;
-        height: 130px;
-        padding: 0px 80px;
-    }
+  .card01{
+    gap:10vw;
+    height: 130px;
+    padding: 0px 80px;
+  }
     
 
-    .card001 h2 {
-        font-size: 14px;
-    }
-     .card002 h2 {
-        font-size: 14px;
-    }
+  .card001 h2 {
+    font-size: 14px;
+  }
+  .card002 h2 {
+  font-size: 14px;
+  }
 }
 
 @media (min-width: 822px) {
