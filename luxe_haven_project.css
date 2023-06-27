@@ -14,10 +14,7 @@
 
 /*-------------------nav bar starts------------*/
 
-body {
-  --nav-height: 12vh;
-  margin: 0;
-}
+
 
 nav {
   position: relative;
@@ -27,12 +24,21 @@ nav {
   transition: background-color 0.5s ease-in-out;
   height: 11vh;
   width: 100%;
-  padding: 0 3% 0 3%;
+  
   justify-content: space-between;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 .navbar-yellow {
-  background-color: rgb(0, 0, 0, 0.6) !important;
+  background-color: rgb(0,0,0, 0.6) !important;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+
 }
 
 nav ul {
@@ -42,8 +48,12 @@ nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 50px;
+  padding: 0 100px;
   transition: 0.5s ease-in-out;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 nav ul li {
@@ -51,6 +61,10 @@ nav ul li {
   align-items: center;
   transition: background-color 0.5s ease-in-out;
   height: 11vh;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 nav ul li a {
@@ -62,6 +76,10 @@ nav ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 .dropdown {
@@ -78,6 +96,10 @@ nav ul li a {
   left: 0;
   border-radius: 0% 0% 5% 5%;
   width: 100%;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 .dropdown-link {
@@ -89,11 +111,19 @@ nav ul li a {
   padding: 15px 25px;
   color: white;
   transition: 0.5s ease-in-out;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
   transition: 0.5s linear;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 .scroll-container {
@@ -108,11 +138,19 @@ nav ul li a {
   z-index: 1;
   background-color: transparent;
   transition: 0.5s linear;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 .navbar-before-300px ul li a {
   color: white;
   transition: 0.5s linear;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 /* After 300px */
@@ -122,11 +160,19 @@ nav ul li a {
   z-index: 10;
   background-color: rgb(0, 0, 0, 0.6);
   transition: 0.5s linear;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 .navbar-after-300px ul li a {
   color: white;
   transition: 0.5s linear;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 .dropdown-link.dropdown-hover,
@@ -134,11 +180,19 @@ nav ul li a {
 .dropdown-content:hover {
   background-color: rgb(0, 0, 0, 0.6);
   transition: 0.5s linear;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 .dropdown-content a:hover {
   color: white;
   transition: 0.5s linear;
+  -webkit-backdrop-filter: blur(2px);
+  -moz-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 .logo01 {
@@ -146,6 +200,7 @@ nav ul li a {
   height: 43px;
 }
 
+/*-----mobile navbar---------*/
 
 .nav-mob {
   position: fixed;
@@ -304,7 +359,6 @@ aside a {
 .cta:active svg {
   transform: scale(0.9);
 }
-
 
 
 
@@ -814,84 +868,6 @@ aside a {
 }
 
 
-/*----------------tablet ipad mini---------
------------------------------------------*/
-
-@media screen and (max-width: 768px) and (min-width: 650px){
-
-.nav {
-    display: none;
-  }
-
-  .navmobile {
-    display: block;
-  }
-
-  .beforeabout h1{
-    font-size: 90px;
-  }
-  .burger {
-    padding-top: 50px;}
-  .ca3-scroll-down-link {
-    bottom: 180px;
-    height: 70px;
-  }
-
-  .main-carousel{
-    height: 650px;
-    border: #0177b5 5px solid;
-  }
-
-  .cell{
-    height: 600px;
-    border: green 5px solid;
-    margin: 10px 30px 0px 30px;
-  }
-  .sp04{
-    display: none;
-  }
-  .sp03{
-    display: none;
-  }
-  .sp02{
-    display: none;
-  }
-
-  .para{
-    height: 500px;
-    border: darkgreen 5px solid;
-  }
-  
-  .para h1{  
-    font-size: 46px;
-    font-weight: 300;
-    letter-spacing: 4px;
-    margin-bottom: 70px;
-  }
-
-  .para01 p {
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 4px;
-    line-height: 25px;
-  }   
-
-  .card01{
-    gap:10vw;
-    height: 130px;
-    padding: 0px 80px;
-  }
-    
-
-  .card001 h2 {
-    font-size: 14px;
-  }
-  .card002 h2 {
-  font-size: 14px;
-  }
-
-
-}
 
 /*----------------small phone---------
 -----------------------------------------*/
@@ -912,9 +888,10 @@ aside a {
   }
 
   .nav-mob img{
-    width: 160px;
-    height: 30px;
+    width: 140px;
+    height: 27px;
     margin: auto;
+    
   }
   .burger {
     padding-top: 20px;
@@ -924,22 +901,23 @@ aside a {
   }
 
   .beforeabout h1{
-    font-size: 40px;
+    font-size: 42px;
     letter-spacing: 8px;
+  }
+
+  
+  .ca3-scroll-down-link {
+    bottom: 90px;
+    height: 60px;
+    width: 40px;
+    font-size: 30px;
+    border: #4ac157 solid 2px;
   }
 
   .extra {
     display: none;
   }
   
-  .ca3-scroll-down-link {
-    bottom: 170px;
-    height: 60px;
-    width: 40px;
-    font-size: 30px;
-  }
-  
-
   .footer-main .icons{
     padding: 35px;
   }
@@ -1015,7 +993,7 @@ aside a {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 4px;
-    line-height: 25px;
+    line-height: 20px;
   }   
 
   .card01{
@@ -1059,15 +1037,32 @@ aside a {
   .nav-mob{
     height:70px;
   }
+  
   .nav-mob img{
-    width: 190px;
-    height: 35px;
+    width: 160px;
+    height: 28px;
     margin: auto;
+    
   }
+
   .burger {
-    padding-top: 0px;
-    width: 62px;
-    height: 62px;
+     padding-top: 20px;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+  }
+  
+  .beforeabout h1{
+    font-size: 42px;
+    letter-spacing: 8px;
+  }
+
+  .ca3-scroll-down-link {
+    bottom: 90px;
+    height: 60px;
+    width: 40px;
+    font-size: 30px;
+    border: #893dc2 solid 2px;
   }
   
   .beforeabout h1{
@@ -1079,11 +1074,6 @@ aside a {
     display: none;
   }
   
-  .ca3-scroll-down-link {
-    bottom: 130px;
-    height: 70px;
-  }
-
   .footer-main .icons{
     padding: 35px;
   }
@@ -1174,6 +1164,99 @@ aside a {
 
 }
 
+/*----------------tablet ipad mini---------
+-----------------------------------------*/
+
+@media screen and (max-width: 768px) and (min-width: 650px){
+
+  .nav {
+    display: none;
+  }
+  .nav-mob {
+    height:100px;
+  }
+
+  .navmobile {
+    display: block;
+  }
+
+  .nav-mob img{
+    width: 230px;
+    height: 40px;
+    margin: auto;
+    
+  }
+  
+  .beforeabout h1{
+    font-size: 90px;
+  }
+
+  .burger {
+    padding-top: 10px;
+  }
+  
+  .ca3-scroll-down-link {
+    bottom: 170px;
+    height: 70px;
+  }
+
+  .main-carousel{
+    height: 650px;
+    border: #0177b5 5px solid;
+  }
+
+  .cell{
+    height: 600px;
+    border: green 5px solid;
+    margin: 10px 30px 0px 30px;
+  }
+  .sp04{
+    display: none;
+  }
+  .sp03{
+    display: none;
+  }
+  .sp02{
+    display: none;
+  }
+
+  .para{
+    height: 500px;
+    border: darkgreen 5px solid;
+  }
+  
+  .para h1{  
+    font-size: 46px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    margin-bottom: 70px;
+  }
+
+  .para01 p {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    line-height: 25px;
+  }   
+
+  .card01{
+    gap:10vw;
+    height: 130px;
+    padding: 0px 80px;
+  }
+    
+
+  .card001 h2 {
+    font-size: 14px;
+  }
+  .card002 h2 {
+  font-size: 14px;
+  }
+
+
+}
+
+
 
 /*----------------tablet ipad air---------
 -----------------------------------------*/
@@ -1183,17 +1266,23 @@ aside a {
     display: none;
   }
 
+  .nav-mob {
+    height:110px;
+  }
   .navmobile {
     display: block;
   }
-
+  
   .beforeabout h1{
     font-size: 90px;
   }
+
   .burger {
-    padding-top: 50px;}
+    padding-top: 20px;
+  }
+  
   .ca3-scroll-down-link {
-    bottom: 180px;
+    bottom: 170px;
     height: 70px;
   }
 
