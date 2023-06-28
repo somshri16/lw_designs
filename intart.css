@@ -522,7 +522,7 @@ aside a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border:#0177b5 2px solid;
+  
 }
 .headingmain{
   align-items: center;
@@ -910,7 +910,7 @@ aside a {
     height: 60px;
     width: 40px;
     font-size: 30px;
-    border: #4ac157 solid 2px;
+   
   }
 
 
@@ -981,7 +981,7 @@ aside a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border:#0177b5 2px solid;
+    
   }
 
   .headingmain{
@@ -1004,13 +1004,13 @@ aside a {
     align-items: center;
     display: flex;
     justify-content: center;
-    height: 500px;
+    height: fit-content;
     width: 100%; 
 
     padding: 0 10px;
   }
   .paracontent {
-    height: 400px;
+    height: fit-content;
     width: 840px; 
     padding:10px;
     text-align: justify;
@@ -1089,7 +1089,7 @@ aside a {
     height: 60px;
     width: 40px;
     font-size: 30px;
-    border: #893dc2 solid 2px;
+   
   }
   
   .beforeabout h1{
@@ -1131,7 +1131,6 @@ aside a {
 
   .main-carousel{
     height: 450px;
-    
   }
 
   .cell{
@@ -1151,21 +1150,19 @@ aside a {
   }
   
   .para{
-    height: 550px;
+    height: auto;
     width: 100%; 
     background-color: #fdfdfd;
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-
   }
 
   .headingmain{
     align-items: center;
     display: flex;
     justify-content: center;
-
     height: 150px;
     width: 100%; 
     padding: 70px 30px 10px 30px;
@@ -1181,21 +1178,19 @@ aside a {
     align-items: center;
     display: flex;
     justify-content: center;
-    height: 500px;
+    height: fit-content;
     width: 100%; 
-    border: springgreen 2px solid;
+   
     padding: 0 10px;
   }
   .paracontent {
-    height: 400px;
-    width: 840px; 
-    padding:10px;
+    height: fit-content;
+    width: 100%; 
     text-align: justify;
     font-size: 15px;
     font-weight: 300;
     letter-spacing: 3px;
     line-height: 25px;
-    border: #893dc2 2px solid;
     
   }
 
@@ -1278,18 +1273,18 @@ aside a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border:#0177b5 2px solid;
+    
   }
   .headingmain{
     align-items: center;
     display: flex;
     justify-content: center;
-    border: #4ac157 2px solid;
+  
     height: 100px;
     width: 100%; 
   }
   .headingcontent{
-    border: #ea4335 2px solid;
+ 
     font-size: 45px;
     font-weight: 300;
     letter-spacing: 4px;
@@ -1301,7 +1296,7 @@ aside a {
     justify-content: center;
     height: 320px;
     width: 100%; 
-    border: springgreen 2px solid;
+ 
     padding: 0 40px;
   }
   .paracontent {
@@ -1313,7 +1308,7 @@ aside a {
     font-weight: 300;
     letter-spacing: 4px;
     line-height: 25px;
-    border: #893dc2 2px solid;
+
       
   }
 
@@ -1390,18 +1385,18 @@ aside a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border:#0177b5 2px solid;
+  
 }
 .headingmain{
   align-items: center;
   display: flex;
   justify-content: center;
-  border: #4ac157 2px solid;
+ 
   height: 100px;
   width: 100%; 
 }
 .headingcontent{
-  border: #ea4335 2px solid;
+  
   font-size: 45px;
   font-weight: 300;
   letter-spacing: 4px;
@@ -1413,7 +1408,7 @@ aside a {
   justify-content: center;
   height: 320px;
   width: 100%; 
-  border: springgreen 2px solid;
+  
   padding: 0 40px;
 }
 .paracontent {
@@ -1425,7 +1420,7 @@ aside a {
     font-weight: 300;
     letter-spacing: 4px;
     line-height: 25px;
-    border: #893dc2 2px solid;
+  
     
 }
 
