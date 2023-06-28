@@ -1249,7 +1249,7 @@ aside a {
   }
   .contmain{
     flex-direction: column;
-    height: 1200px;
+    height: 1300px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -1369,6 +1369,7 @@ aside a {
     font-weight: 300;
     letter-spacing: 2px;
     text-align: justify;
+    margin-bottom: 20px;
   }
   .maps01{
     height: 300px;
@@ -1439,7 +1440,7 @@ aside a {
   .contmain{
     gap:7vw;
     flex-wrap: wrap;
-    height: 720px;
+    height: auto;
     width: 100%;
     display: flex;
     align-items: flex-start;
@@ -1457,6 +1458,7 @@ aside a {
     text-align: justify;
     margin-top: 20px;
   }
+
   .headingfirstmain {
     align-items: center;
     text-align: center;
@@ -1480,6 +1482,7 @@ aside a {
     height: 100px;
 
   }
+
   .list {
     display: flex;
     flex-direction: column;
@@ -1489,6 +1492,7 @@ aside a {
     width: 280px;
     height: 150px;
   }
+
   .listitems {
     
     width: 200px;
@@ -1612,6 +1616,7 @@ aside a {
     font-weight: 300;
     letter-spacing: 2px;
     text-align: justify;
+    
   }
 
 }
