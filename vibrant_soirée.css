@@ -365,17 +365,17 @@ aside a {
 .beforeabout{
   height: 90vh;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/gurgaon_project_01.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/Ranchi_Project_09.jpg);
   background-size: cover;
-  background-position: center center;
+  background-position: top center;
 }
 
 .beforeabout h1{
-  position: relative;
+    position: relative;
   width:fit-content;
   top: 50%;
   left:50%;
-  transform: translate(-50% , -50%);  
+  transform: translate(-50% , -50%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -863,6 +863,7 @@ aside a {
   color: black;
 }
 
+
 /*----------------small phone---------
 -----------------------------------------*/
 
@@ -885,6 +886,7 @@ aside a {
     width: 140px;
     height: 27px;
     margin: auto;
+    
   }
   .burger {
     padding-top: 20px;
@@ -904,14 +906,14 @@ aside a {
     height: 60px;
     width: 40px;
     font-size: 30px;
-    border: #4ac157 solid 2px;
+ 
   }
 
 
   .extra {
     display: none;
   }
-
+  
   .footer-main .icons{
     padding: 35px;
   }
@@ -942,13 +944,11 @@ aside a {
   .main-carousel{
     height: 400px;
     
-    
   }
 
   .cell{
     height: 350px;
     width: 89%;
-    
     margin: 10px 30px 0px 30px;
   }
 
@@ -969,27 +969,28 @@ aside a {
   }
 
   .para{
-    height: 700px;
-    
+    height: fit-content;
+
   }
   .para h1{
-        
-    font-size: 36px;
+    padding: 20px;
+    text-align: center;    
+    font-size: 42px;
     font-weight: 300;
     letter-spacing: 4px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
-
   .para01{
-  padding-left: 5%;
-  padding-right: 5%;
-}
+    padding-left: 7%;
+    padding-right: 7%;
+  }
 
   .para01 p {
     font-size: 14px;
     font-weight: 300;
-    letter-spacing: 4px;
-    line-height: 20px;
+    letter-spacing: 3px;
+    line-height: 22px;
+    margin-bottom: 30px;
   }   
 
   .card01{
@@ -998,7 +999,6 @@ aside a {
     padding: 0px 20px;
     display: flex;
     flex-direction: column;
-   
   }
 
   .card001, .card002{
@@ -1014,9 +1014,7 @@ aside a {
   .card002 h2 {
     font-size: 14px;
   }
-
 }
-
 
 
 /*----------------big phone---------
@@ -1061,19 +1059,18 @@ aside a {
     height: 60px;
     width: 40px;
     font-size: 30px;
-    
+   
   }
   
   .beforeabout h1{
     font-size: 45px;
     letter-spacing: 8px;
-    padding: 0px 50px;
+    padding: 0px 10px;
   }
 
   .extra {
     display: none;
   }
-  
 
   .footer-main .icons{
     padding: 35px;
@@ -1130,22 +1127,28 @@ aside a {
   }
 
   .para{
-    height: 700px;
+    height: fit-content;
 
   }
-  .para h1{
-        
-    font-size: 46px;
+  .para h1{   
+    font-size: 42px;
     font-weight: 300;
     letter-spacing: 4px;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
+    padding: 0 30px;
+    text-align: center;
+  }
+  .para01{
+    padding-left: 7%;
+    padding-right: 7%;
   }
 
   .para01 p {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 4px;
-    line-height: 25px;
+    line-height: 22px;
+    margin-bottom: 30px;
   }   
 
   .card01{
@@ -1164,7 +1167,6 @@ aside a {
   
 
 }
-
 
 /*----------------tablet ipad mini---------
 -----------------------------------------*/
@@ -1201,15 +1203,13 @@ aside a {
     bottom: 170px;
     height: 70px;
   }
-  
+
   .main-carousel{
     height: 650px;
-    
   }
 
   .cell{
     height: 600px;
-    
     margin: 10px 30px 0px 30px;
   }
   .sp04{
@@ -1224,7 +1224,6 @@ aside a {
 
   .para{
     height: 500px;
- 
   }
   
   .para h1{  
@@ -1266,19 +1265,23 @@ aside a {
     display: none;
   }
 
+  .nav-mob {
+    height:110px;
+  }
   .navmobile {
     display: block;
   }
-
+  
   .beforeabout h1{
     font-size: 90px;
-    padding: 50px;
-    
   }
+
   .burger {
-    padding-top: 50px;}
+    padding-top: 20px;
+  }
+  
   .ca3-scroll-down-link {
-    bottom: 180px;
+    bottom: 170px;
     height: 70px;
   }
 
