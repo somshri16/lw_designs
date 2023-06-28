@@ -906,7 +906,7 @@ aside a {
     height: 60px;
     width: 40px;
     font-size: 30px;
-    border: #4ac157 solid 2px;
+  
   }
 
 
@@ -969,27 +969,28 @@ aside a {
   }
 
   .para{
-    height: 700px;
+    height: fit-content;
 
   }
   .para h1{
-        
-    font-size: 36px;
+    padding: 20px;
+    text-align: center;    
+    font-size: 42px;
     font-weight: 300;
     letter-spacing: 4px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
-
   .para01{
-  padding-left: 5%;
-  padding-right: 5%;
-}
+    padding-left: 7%;
+    padding-right: 7%;
+  }
 
   .para01 p {
     font-size: 14px;
     font-weight: 300;
-    letter-spacing: 4px;
-    line-height: 20px;
+    letter-spacing: 3px;
+    line-height: 22px;
+    margin-bottom: 30px;
   }   
 
   .card01{
@@ -1013,7 +1014,6 @@ aside a {
   .card002 h2 {
     font-size: 14px;
   }
-
 }
 
 
@@ -1059,7 +1059,7 @@ aside a {
     height: 60px;
     width: 40px;
     font-size: 30px;
-    border: #893dc2 solid 2px;
+ 
   }
   
   .beforeabout h1{
@@ -1127,22 +1127,28 @@ aside a {
   }
 
   .para{
-    height: 700px;
+    height: fit-content;
 
   }
-  .para h1{
-        
-    font-size: 46px;
+  .para h1{   
+    font-size: 42px;
     font-weight: 300;
     letter-spacing: 4px;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
+    padding: 0 30px;
+    text-align: center;
+  }
+  .para01{
+    padding-left: 7%;
+    padding-right: 7%;
   }
 
   .para01 p {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 4px;
-    line-height: 25px;
+    line-height: 22px;
+    margin-bottom: 30px;
   }   
 
   .card01{
