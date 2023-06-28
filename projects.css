@@ -786,7 +786,6 @@ aside a {
     height: fit-content;
     width: 100%;
     background-color: #fdfdfd;
-    border: #4ac157 2px solid;
     padding: 0px;
   }
 
@@ -924,8 +923,9 @@ aside a {
     height: 2vh;
 }
 
-  .mobspace01{height: 60px;
-  border: 2px solid #e33f5f}
+  .mobspace01{
+	  height: 60px;
+ }
 
 .projectssample {
   display: flex;
@@ -935,7 +935,7 @@ aside a {
   height: fit-content;
   width: 100%;
   background-color: #fdfdfd;
-  border: #4ac157 2px solid;
+
   padding: 0px;
 }
 
