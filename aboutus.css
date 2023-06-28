@@ -803,7 +803,6 @@ aside a {
     height: 60px;
     width: 40px;
     font-size: 30px;
-    border: #4ac157 solid 2px;
   }
 
   .extra {
@@ -1022,7 +1021,7 @@ aside a {
     height: 60px;
     width: 40px;
     font-size: 30px;
-    border: #893dc2 solid 2px;
+    
   }
 
 
@@ -1249,7 +1248,7 @@ aside a {
     height: 60px;
     width: 40px;
     font-size: 30px;
-    border: #e33f5f solid 2px;
+    
   }
   
   .teamdiv {
@@ -1449,7 +1448,6 @@ aside a {
     height: 950px;
     width: 100%;
     background-color: #fdfdfd;
-    border:#0077b5 2px solid;
   }
 
   .pictureteam {
@@ -1465,7 +1463,7 @@ aside a {
     display: inline-block;
     justify-content: center;
     align-items: center;
-    border:yellow 2px solid;
+    
   }
 
   .description h1 {
