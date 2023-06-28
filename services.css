@@ -788,7 +788,7 @@ aside a {
 /*----------------small phone---------
 -----------------------------------------*/
 
-@media screen and (max-width: 376px) and (min-width: 300px){
+@media screen and (max-width: 376px) and (min-width: 200px){
 
   .nav {
     display: none;
@@ -846,86 +846,85 @@ aside a {
   animation: showcontent 1s ease-in-out 0.3s 1;
   background-color: #fdfdfd;
  
-    }
+  }
 
-.card {
-  width: 250px;
-  height: 50px;
-  
-}
+  .card {
+    width: 250px;
+    height: 50px;
+    
+  }
 
-.spacebetween01{
+  .spacebetween01{
     height: 2vh;
-}
+  }
 
-.projectssample {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  height: 680px;
-  width: 100%;
-  background-color: #fdfdfd;
-
-  padding: 0px;
-}
-
-.projectssample002{
+  .projectssample {
+    display: flex;
     flex-direction: column;
-}
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+    background-color: #fdfdfd;
 
-.projectimagemain {
-  height: 300px;
-  width: 100%;
+    padding: 0px;
+  }
 
-  overflow: hidden;
-}
+  .projectssample002{
+    flex-direction: column;
+  }
 
-.projectimage{
+  .projectimagemain {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .projectimage{
     height:300px;
     width: 100%;
     display: block;
     will-change: transform;
     transition: 8s /*var(--cubicbz)*/;
     overflow: hidden;
-}
+  }
 
-.projectimagemain:hover .projectimage {
-  transform: scale(1.15);
-  overflow: hidden;
-}
+  .projectimagemain:hover .projectimage {
+    transform: scale(1.15);
+    overflow: hidden;
+  }
 
-.description {
-  height: 420px;
-  width: 100%;
-  text-align: justify;
-  padding: 20px 20px;
-  background-color: #fdfdfd;
+  .description {
+    height: fit-content;
+    width: 100%;
+    text-align: justify;
+    padding: 20px 20px;
+    background-color: #fdfdfd;
 
-}
+  }
 
-.headinghead{
+  .headinghead{
     display: flex;
     justify-content: center;
     align-items: center;
 
-}
+  }
 
-.headingdescription {
-  font-size: 30px;
-  font-weight: 300;
-  letter-spacing: 4px;
-  text-align: center;
-}
+  .headingdescription {
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-align: center;
+  }
 
-.headingpara p {
-  margin-top: 18px;
-  margin-bottom: 20px;
-  font-size: 15px;
-  font-weight: 300;
-  letter-spacing: 2px;
+  .headingpara p {
+    margin-top: 18px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 2px;
 
-}
+  }
 
 
   .footer-main .icons{
@@ -1002,18 +1001,18 @@ aside a {
   
   .card01{
     margin-top:30px;
-  display:flex;
-  flex-direction: column;
-  gap:27px;
-  width: 100%;
-  height: 230px;
-  justify-content: center;
-  align-items: center;
-  padding: 0px 100px;
-  animation: showcontent 1s ease-in-out 0.3s 1;
-  background-color: #fdfdfd;
+    display:flex;
+    flex-direction: column;
+    gap:27px;
+    width: 100%;
+    height: 230px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 100px;
+    animation: showcontent 1s ease-in-out 0.3s 1;
+    background-color: #fdfdfd;
 
-    }
+  }
 
 .card {
   width: 250px;
@@ -1030,10 +1029,10 @@ aside a {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 680px;
+  height: fit-content;
   width: 100%;
   background-color: #fdfdfd;
-
+  
   padding: 0px;
 }
 
@@ -1063,12 +1062,12 @@ aside a {
 }
 
 .description {
-  height: 380px;
+  height: fit-content;
   width: 100%;
   text-align: justify;
   padding: 20px 20px;
   background-color: #fdfdfd;
-
+  
 }
 
 .headinghead{
